@@ -277,7 +277,7 @@ test
     "test $s"
 }
 
-# Note that the # in the path should highlight as a comment!
+# Note that the # in the path should NOT highlight as a comment!
 function Test-Drive([string]$roman) {
 	$roman | c:\users\Me\Documents\Programming\F#\test.exe $roman
 }
@@ -287,7 +287,11 @@ function Get-EscapedPath
     param(
     [Parameter(
         Position=0,
+<<<<<<< HEAD
         Mandatory=$true
+=======
+        Mandatory=$true,
+>>>>>>> upstream/v2
         ValueFromPipeline=$true,
         ValueFromPipelineByPropertyName=$true)
     ]
