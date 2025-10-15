@@ -1,0 +1,7 @@
+node_modules
+npm-debug.log
+syntaxes/
+grammars/
+node_modules/
+atom/
+atom.zip
